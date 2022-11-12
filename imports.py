@@ -7,7 +7,7 @@ import string
 import sys
 import torch
 import torch.nn as nn
-import torchtext.data as data
+import torchtext.legacy.data as data
 import torchtext.datasets as datasets
 import nltk
 import numba

@@ -1,0 +1,22 @@
+dataset:
+  name: sst
+  columns_to_select:
+  - 0
+  - 1
+  feature_size: 5
+  seed_path: /Data/SST/seed.csv
+  unlabeled_path: /Data/SST/unlabeled.csv
+  val_path: /Data/SST/validation.csv
+  test_path: /Data/SST/test.csv
+optimizer:
+  name: adam
+  lr: 2.0e-05
+  eps: 1.0e-08
+parameters:
+  dropout: 0.2
+  T: 10
+  Q: 85
+  epochs: 15
+  batch_size: 128
+query_function: variation_ratio
+metric_file: random_vs_al

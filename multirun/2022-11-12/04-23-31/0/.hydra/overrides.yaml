@@ -1,0 +1,2 @@
+- dataset=sst
+- query_function=variation_ratio
