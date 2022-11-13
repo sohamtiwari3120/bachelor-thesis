@@ -1,7 +1,7 @@
 import json
 from functools import reduce
 import warnings
-import torchtext.legacy.data as data
+import torchtext.data as data
 
 
 class SubscriptableExample(data.Example):
